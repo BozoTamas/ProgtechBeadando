@@ -1,0 +1,11 @@
+A beadandó megvalósításához stratégia és state tervezési minta használata mellett döntöttem.
+Ezekhez a mintákhoz az órai anyag mellett további videókat nézek, keresgélek az internetet, hogy jobban elsajátítsam.
+
+2020.05.04. (hétfő) - Könyvtárszerkezet/fájlok megtervezése (milyen java class-ok lesznek, mennyi modell, mennyi interfész, stb.)
+2020.05.05. (kedd) - Adatbázis eltervezése (mennyi tábla lesz, ezekben mit tárolok, mik lesznek a kapcsolatok, kulcsok, stb.)
+2020.05.06. (szerda) - Adatbázis modellhez szükséges osztályok implementálása
+2020.05.07. (csütörtök) - Pihenőnap, view-k megtervezése fejben
+2020.05.08. (péntek) - View-k megvalósítása
+2020.05.09. (szombat) - Üzleti logika implementálása
+2020.05.10. (vasárnap) - Unit teszt kigondolása (mihez akarok unit tesztet írni)
+2020.05.11. (hétfő) - Unit tesztek implementálása
