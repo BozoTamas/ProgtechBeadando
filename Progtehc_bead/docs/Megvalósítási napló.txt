@@ -1,0 +1,4 @@
+2020,04,05 - A mappaszerkezet alfa változatát létrehoztam manuálisan, hogy a későbbiekben könnyebben tudjam követni, mit fejeztem már be és mi hiányzik még.
+			 Sajnos nem sikerült első nekifutásra tökéletesen megcsinálni, ugyanis nem vettem számításba, hogy gitre csak akkor tudom a mappaszerkezetet létrehozni,
+			 ha minden mappában amit hozzá akarok adni van legalább egy fájl. Ennek elérésére midnen mappába létrehoztam egy txt fájlt, hogy a mappaszerkezetet fel tudjam pushilni git-re.
+			 a mappaszerkezet a későbbiekben változhat (újbóli mappák/almappák kerülhetnek létrehozásra, valamint mappák kerülhetnek törlésre).
