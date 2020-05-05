@@ -8,3 +8,4 @@ Alapötlet:
 		-> melyik autót
 		-> mikortól - meddig
 		-> mennyit kell fizetni - mivel fizet
+	-tesztet a fizetési módok ellenőrzésére fogok használni
