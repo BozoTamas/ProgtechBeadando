@@ -2,3 +2,7 @@
 			 Sajnos nem sikerült első nekifutásra tökéletesen megcsinálni, ugyanis nem vettem számításba, hogy gitre csak akkor tudom a mappaszerkezetet létrehozni,
 			 ha minden mappában amit hozzá akarok adni van legalább egy fájl. Ennek elérésére midnen mappába létrehoztam egy txt fájlt, hogy a mappaszerkezetet fel tudjam pushilni git-re.
 			 a mappaszerkezet a későbbiekben változhat (újbóli mappák/almappák kerülhetnek létrehozásra, valamint mappák kerülhetnek törlésre).
+			 
+2020,04,06 - A fizetési módhoz szükséges interfészt létrehoztam, valamint ezt implementáltam azokban az osztályokban melyek ezt használni fogják.
+			 Ezekben az osztályokban az interfészben találhato 'info' nevű interface-ben tárolt adatot az @Override segítségével felülírom az adott
+			 fizetési mód megnevezésére (kártya esetén 'credit card', készpénz esetén 'cash').
