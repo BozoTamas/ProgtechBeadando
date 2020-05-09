@@ -9,3 +9,13 @@
 			 
 2020,05,06 - Létrehoztam az adatbázist, ugyanis rájöttem, hogy szükségem van rá a view-k és a modellek megírásához, továbbá az adatbázishoz tartozó modelleket létrehoztam illetve megírtam.
 			 Minden adatbázis modellhez tartozó java fájlban a táblában szereplő adatok vannak implementálva, valamint az ehhez tartozó 'get' és 'set' metódusok.
+
+2020,05,07 - Strategy implementálva a kártyás és készpénzfizetés-re.
+			 Készpénz - Amennyiben az adott autó kölcsönözve van a kölcsönzés sikertelen.
+			 Kártya - Ellenőrizzük/validáljuk a felhasználó bankkárytáját. Amennyiben a validáció sikertelen a kölcsönzés is.
+			 A strategy megvalósításának sikerességéhez létrehoztam egy saját kivételt is.
+
+2020,05,08 - Valamilyen oknál fogva nem működik a strategy.
+			 Rájöttem, hogy a problémát valószínűleg az okozza, hogy a db_modell mappában található .java fájlokban a 'set' részek private védettségi szintet kaptak, ezért ezeket javítom public-ra.
+			 A lecseréléssel már nem ad hibát. Sikeresen ráment az egész nap arra, hogy erre a hibámra rájöjjek.
+			 A haladást 2020.05.09-én fogom feltölteni gitre, ugyanis jelenlleg este 11 elmúlt és már majd alalszok. 

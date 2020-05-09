@@ -8,7 +8,7 @@ public class Payment {
 		return id;
 	}
 	
-	private void setId(int id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	
@@ -16,7 +16,7 @@ public class Payment {
 		return method;
 	}
 	
-	private void setMethod() {
+	public void setMethod() {
 		this.method = method;
 	}
 }

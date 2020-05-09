@@ -13,7 +13,7 @@ public class Users {
 		return id;
 	}
 	
-	private void setId(int id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	
@@ -21,7 +21,7 @@ public class Users {
 		return username;
 	}
 	
-	private void setUsername(String username) {
+	public void setUsername(String username) {
 		this.username = username;
 	}
 	
@@ -29,7 +29,7 @@ public class Users {
 		return password;
 	}
 	
-	private void setPassword(String password) {
+	public void setPassword(String password) {
 		this.password = password;
 	}
 	
@@ -37,7 +37,7 @@ public class Users {
 		return email;
 	}
 	
-	private void setEmail(String email) {
+	public void setEmail(String email) {
 		this.email = email;
 	}
 	
@@ -45,7 +45,7 @@ public class Users {
 		return first_name;
 	}
 	
-	private void setFirst_name(String first_name) {
+	public void setFirst_name(String first_name) {
 		this.first_name = first_name;
 	}
 	
@@ -53,7 +53,7 @@ public class Users {
 		return last_name;
 	}
 	
-	private void setLast_name(String last_name) {
+	public void setLast_name(String last_name) {
 		this.last_name = last_name;
 	}
 	
@@ -61,7 +61,7 @@ public class Users {
 		return address;
 	}
 	
-	private void setAddress(String address) {
+	public void setAddress(String address) {
 		this.address = address;
 	}
 }
