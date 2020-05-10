@@ -31,3 +31,4 @@
 			 Az esti órákban elkészítettem a form néhány elemét. Ezek a bankkártya, valamint felhasználó ellenőrző ablakok, valamint a regisztráló és bejelentkező ablakok.
 			 A holnapi napra hátramaradt a kölcsönző felület, ahol megjelenítésre fognak kerülni az autók, az ár, valamint az is, hogy éppen ki van-e kölcsönözve.
 			 Ezek után már csak a UnitTestek kellenek, valamint a program tesztelése és a kód szépítése.
+			 Átnéztem a .idea mappákban lévő automatikusan generált állományokat és rájöttem, hogy az IntelliJ egy üres sort hagyott a végén. Nem zavar be a kódba, viszont nekem nem tetszett, hogy ott vannak. :/
