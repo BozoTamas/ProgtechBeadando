@@ -28,3 +28,6 @@
 			 létező felhasználóval való bejelentkezést, valamint autó kölcsönzését fogom biztosítani.
 			 Az előzőleg kijavított db_modell-ben lévő figyelmeztető üzenet értelmét itt már egyértelműen látom, ugyanis ha db_modell-ekben 'private' maradt volna a védelmi
 			 szint, nem bírtam volna elérni az adott 'void' metódusokat, amire pedig itt szükség van, hogy új felhasználót hozzak létre.
+			 Az esti órákban elkészítettem a form néhány elemét. Ezek a bankkártya, valamint felhasználó ellenőrző ablakok, valamint a regisztráló és bejelentkező ablakok.
+			 A holnapi napra hátramaradt a kölcsönző felület, ahol megjelenítésre fognak kerülni az autók, az ár, valamint az is, hogy éppen ki van-e kölcsönözve.
+			 Ezek után már csak a UnitTestek kellenek, valamint a program tesztelése és a kód szépítése.
