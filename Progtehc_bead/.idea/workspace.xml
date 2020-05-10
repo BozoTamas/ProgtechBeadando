@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ChangeListManager">
+  <component name="ChangeListManager"> 
     <list default="true" id="b8c6f521-554a-4f5e-acf0-666e18ab1d23" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/tests/BankCardInfoTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/tests/CashPaymentTest.java" afterDir="false" />
