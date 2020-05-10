@@ -18,4 +18,10 @@
 2020,05,08 - Valamilyen oknál fogva nem működik a strategy.
 			 Rájöttem, hogy a problémát valószínűleg az okozza, hogy a db_modell mappában található .java fájlokban a 'set' részek private védettségi szintet kaptak, ezért ezeket javítom public-ra.
 			 A lecseréléssel már nem ad hibát. Sikeresen ráment az egész nap arra, hogy erre a hibámra rájöjjek.
-			 A haladást 2020.05.09-én fogom feltölteni gitre, ugyanis jelenlleg este 11 elmúlt és már majd alalszok. 
+			 A haladást 2020.05.09-én fogom feltölteni gitre, ugyanis jelenlleg este 11 elmúlt és már majd alalszok.
+			 
+2020,05,10 - Sikeresen implementáltam a 'state' tervezési mintát is, mely az autó állapotára vonatkva dolgoztam ki.
+			 Létrehoztam továbbá a modelleket, melyek segítségével az adatbázishoz csatlakozást, oda új felhasználó felvevését,
+			 létező felhasználóval való bejelentkezést, valamint autó kölcsönzését fogom biztosítani.
+			 Az előzőleg kijavított db_modell-ben lévő figyelmeztető üzenet értelmét itt már egyértelműen látom, ugyanis ha db_modell-ekben 'private' maradt volna a védelmi
+			 szint, nem bírtam volna elérni az adott 'void' metódusokat, amire pedig itt szükség van, hogy új felhasználót hozzak létre.

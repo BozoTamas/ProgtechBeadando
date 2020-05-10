@@ -9,5 +9,5 @@ public class NotRented extends RentalState {
 	@Override
 	public String getStateMessage() {
 		return "A jármű kölcsönözhető!";
-	}
+	} 
 }
