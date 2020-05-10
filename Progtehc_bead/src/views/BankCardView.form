@@ -26,7 +26,7 @@
           <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Bank card number:"/>
+          <text value="Kártyaszám:"/>
         </properties>
       </component>
       <component id="5cdde" class="javax.swing.JTextField" binding="bankCradNumber_TF">
@@ -42,7 +42,7 @@
           <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Validity of your card will appear here"/>
+          <text value="A kártya érvényessége itt fog megjelenni!"/>
         </properties>
       </component>
     </children>

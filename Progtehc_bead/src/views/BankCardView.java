@@ -23,7 +23,7 @@ public class BankCardView extends JFrame{
 
     public BankCardView(){
         add(mainPanel);
-        setTitle("Pay with bank card");
+        setTitle("Bankkártyás fizetés");
         setResizable(false);
         setSize(600,300);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);

@@ -47,7 +47,7 @@ public class CheckUserView extends JFrame{
 
     public CheckUserView(){
         add(mainPanel);
-        setTitle("Check user");
+        setTitle("Felhasználó hitelesítés");
         setResizable(false);
         setSize(900, 500);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
