@@ -139,7 +139,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
+    <option name="CHANGED_PATHS"> 
       <list>
         <option value="$PROJECT_DIR$/src/database.txt" />
         <option value="$PROJECT_DIR$/src/models/db_models/payment.java" />

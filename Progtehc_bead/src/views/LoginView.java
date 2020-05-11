@@ -13,7 +13,7 @@ public class LoginView extends JFrame {
 
     public String getUsername(){
         return this.username_TF.getText();
-    }
+    } 
     public String getPassword(){
         return new String(this.password_PF.getPassword());
     }

@@ -1,3 +1,5 @@
+//Felhasználók adatbázis modellje
+
 package com.models.db_models;
 
 public class Users {
@@ -9,7 +11,7 @@ public class Users {
 	private String last_name;
 	private String address;
 	
-	public int getId() {
+	public int getId() { 
 		return id;
 	}
 	

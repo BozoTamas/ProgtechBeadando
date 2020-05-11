@@ -5,3 +5,4 @@ public class InvalidPaymentException extends Exception {
 		super(errorMessage);
 	}
 }
+ 

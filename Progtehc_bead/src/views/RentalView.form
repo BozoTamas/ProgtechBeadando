@@ -14,7 +14,7 @@
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties/> 
       </component>
       <vspacer id="1c23b">
         <constraints>

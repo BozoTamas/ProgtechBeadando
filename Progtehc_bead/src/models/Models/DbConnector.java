@@ -11,7 +11,7 @@ public class DbConnector {
     private static final String URL = "jdbc:mysql://localhost:3308/progtech_db?serverTimezone=" + TimeZone.getDefault().getID();;
 
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "balintapro98";
+    private static final String PASSWORD = " ";
 
     public static Connection getConnection() throws SQLException, ClassNotFoundException {
         if(conn == null){
@@ -22,7 +22,7 @@ public class DbConnector {
                 e.printStackTrace();
                 throw e;
             } catch (ClassNotFoundException e){
-                throw e;
+                throw e; 
             }
         }
         return conn;

@@ -36,3 +36,9 @@
 2020,05,11 - Elkészült az utolsó view is, azonban idő közben lejárt az IntelliJ ultimate próbaidőszaka, ezért váltanom kellett az IntelliJ community verzióra.
 			 Az IntelliJ a kódra nem dob ki hibát, de a workspace.xml fájl-ra hibát dob ki...
 			 Megpróbálom egy új project létrehozásával és oda való átemeléssel, remélve, hogy úgy nem lesz problémája.
+			 Kidolgozásra került a három Unit teszt amit terveztem, valamint átnéztem a teljes kódot és ahol a kódszervezés nem tetszett, töröltem felesleges többletsort, szőközt, tabulátort, stb.
+			 A programon tovább dolgozni már nincs lehetőségem, remélem ez eleget tesz Tanár Úr elvárásának.
+
+Felhasznált segédanyagok: https://www.youtube.com/watch?v=-NCgRD9-C6o&feature=youtu.be
+						  https://www.youtube.com/watch?v=MGEx35FjBuo&feature=youtu.be
+						  További stackoverflow megoldások, valamint előadás jegyzet.

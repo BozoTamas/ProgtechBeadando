@@ -24,7 +24,7 @@ public class RegisterModel {
             statement.setString(6, user.getAddress());
 
             statement.execute();
-
+ 
 
         } catch (SQLException e){
             throw e;

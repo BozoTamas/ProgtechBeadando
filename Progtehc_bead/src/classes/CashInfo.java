@@ -12,7 +12,7 @@
 		return "cash";
 	}
 	//Felülírjuk az interfészben található metódus visszatérési értékét.
-	private Users user;
+	private Users user; 
 
     public void setUser(Users user) {
         this.user = user;

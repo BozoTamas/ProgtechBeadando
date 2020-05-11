@@ -13,7 +13,7 @@ public class RegisterView extends JFrame {
     private JTextField address_TF;
     private JButton registerButton;
     private JLabel lbl_res;
-
+ 
     public String getUsername(){
         return this.username_TF.getText();
     }

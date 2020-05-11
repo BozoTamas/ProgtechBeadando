@@ -2,4 +2,4 @@
  
  public interface IPaymentInfo{
 	String info();
- }
+ } 

@@ -15,7 +15,7 @@ public class BankCardView extends JFrame{
 
     public String getBankCardNumber(){
         return this.bankCradNumber_TF.getText();
-    }
+    } 
 
     public void setLbl_valid(String state){
         this.lbl_valid.setText(state);

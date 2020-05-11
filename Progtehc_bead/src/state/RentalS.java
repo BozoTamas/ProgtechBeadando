@@ -12,7 +12,7 @@ public class RentalS {
 	public RentalState getState() {
 		return this.state;
 	}
-	
+	 
 	public String getStateMessage() {
 		return this.state.getStateMessage();
 	}

@@ -14,7 +14,7 @@ public class CheckUserView extends JFrame{
     private JRadioButton BankCard_RB;
     private JRadioButton Cash_RB;
     private JLabel status_lbl;
-    private ButtonGroup payment;
+    private ButtonGroup payment; 
 
     public void setBtn_nextActionListener(ActionListener listener){
         this.btn_next.addActionListener(listener);

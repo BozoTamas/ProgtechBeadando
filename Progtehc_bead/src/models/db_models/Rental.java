@@ -1,3 +1,5 @@
+//Kölcsönzás adatbázis modellje
+
 package com.models.db_models;
 
 import java.sql.Date;
@@ -9,7 +11,7 @@ public class Rental {
     private int cars_id;
     private int users_id;
     private int payment_id;
-    private boolean status;
+    private boolean status; 
 
     private Cars car;
     private Payment payment;

@@ -11,7 +11,7 @@ public class BankCardInfo implements IPayementInfo {
 	@Override
 	public String info() {
 		return "credit card";
-	}
+	} 
 	/**
 	* Az interrfészben található metódus értékét felülírja.
 	*/
@@ -25,7 +25,7 @@ public class BankCardInfo implements IPayementInfo {
 	//Beállítjuk a kárya számát
     public void setCardNumber(String cardNumber) throws IllegalArgumentException {
         if(cardNumber.matches(".*[a-zA-Z].*")){
-            throw new IllegalArgumentException("Card number can only contain numbers!!");
+            throw new IllegalArgumentException("A kártya csak számokat tartalmazhat!");
         }
         this.cardNumber = cardNumber;
     }

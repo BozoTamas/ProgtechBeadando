@@ -10,4 +10,4 @@ public class NotRented extends RentalState {
 	public String getStateMessage() {
 		return "A jármű kölcsönözhető!";
 	} 
-}
+} 

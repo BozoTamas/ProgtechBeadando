@@ -21,7 +21,7 @@ public class PaymentModel {
             if(!result.isBeforeFirst()){
                 return null;
             }
-            result.next();
+            result.next(); 
 
             Payment payment = new Payment();
             payment.setId(Integer.parseInt(result.getString("payment_id")));

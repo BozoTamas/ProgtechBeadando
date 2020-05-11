@@ -14,7 +14,7 @@
 	
 	public void setBankCardNumber(String bankCardNumber) {
 		this.bankCardNumber = bankCardNumber;
-	}
+	} 
 	
 	public Users getUser() {
 		return user;

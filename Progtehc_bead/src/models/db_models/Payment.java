@@ -1,3 +1,5 @@
+//Fizetési mód adatbázis modellje
+
 package com.models.db_models;
 
 public class Payment {
@@ -6,7 +8,7 @@ public class Payment {
 	
 	public int getId() {
 		return id;
-	}
+	} 
 	
 	public void setId(int id) {
 		this.id = id;

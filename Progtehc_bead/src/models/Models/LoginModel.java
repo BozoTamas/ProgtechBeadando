@@ -28,7 +28,7 @@ public class LoginModel {
             user.setPassword(result.getString("password"));
             user.setEmail(result.getString("email"));
             user.setFirst_name(result.getString("first_name"));
-            user.setLast_name(result.getString("last_name"));
+            user.setLast_name(result.getString("last_name")); 
             user.setAddress(result.getString("address"));
             return user;
         }catch (SQLException e){

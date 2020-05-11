@@ -21,4 +21,4 @@ public class CashPayment extends PaymentStrategy{
 			throw new InvalidPaymentException("Az autót nem lehet kölcsönözni, ugyanis egy másik felhasználó által már kölcsönözve van!");
 		}
 	}
-}
+} 

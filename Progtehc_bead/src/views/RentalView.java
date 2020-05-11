@@ -14,7 +14,7 @@ public class RentalView extends JFrame{
     private JLabel lbl_rental;
     private JPanel RentalMain;
     private JButton btn_check;
-
+ 
     public void setPriceLabel(String price){
         this.lbl_price.setText(price);
     }

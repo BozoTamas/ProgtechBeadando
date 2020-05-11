@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS `progtech_db`.`users` (
   PRIMARY KEY (`users_id`))
 ENGINE = InnoDB
 
-CREATE TABLE IF NOT EXISTS `progtech_db`.`payment` (
+CREATE TABLE IF NOT EXISTS `progtech_db`.`payment` ( 
   `payment_id` INT NOT NULL AUTO_INCREMENT,
   `method` VARCHAR(30) NOT NULL,
   PRIMARY KEY (`payment_id`))

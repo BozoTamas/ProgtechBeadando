@@ -24,4 +24,4 @@ public class BankCardPayment extends PaymentStrategy {
             return true;
         else return false;
     }
-}
+} 

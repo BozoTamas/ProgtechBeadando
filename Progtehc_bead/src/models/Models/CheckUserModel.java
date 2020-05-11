@@ -12,4 +12,4 @@ public class CheckUserModel {
 	public void setUser(Users user) {
 		this.user = user;
 	}
-}
+} 

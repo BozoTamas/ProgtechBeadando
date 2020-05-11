@@ -53,7 +53,7 @@ public class RentalModel {
                 cars.add(car);
                 price = result.getInt("price_per_day");
             }
-        }catch (SQLException e){
+        }catch (SQLException e){ 
             throw e;
         }catch (ClassNotFoundException e){
 
