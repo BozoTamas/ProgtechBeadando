@@ -32,3 +32,7 @@
 			 A holnapi napra hátramaradt a kölcsönző felület, ahol megjelenítésre fognak kerülni az autók, az ár, valamint az is, hogy éppen ki van-e kölcsönözve.
 			 Ezek után már csak a UnitTestek kellenek, valamint a program tesztelése és a kód szépítése.
 			 Átnéztem a .idea mappákban lévő automatikusan generált állományokat és rájöttem, hogy az IntelliJ egy üres sort hagyott a végén. Nem zavar be a kódba, viszont nekem nem tetszett, hogy ott vannak. :/
+			 
+2020,05,11 - Elkészült az utolsó view is, azonban idő közben lejárt az IntelliJ ultimate próbaidőszaka, ezért váltanom kellett az IntelliJ community verzióra.
+			 Az IntelliJ a kódra nem dob ki hibát, de a workspace.xml fájl-ra hibát dob ki...
+			 Megpróbálom egy új project létrehozásával és oda való átemeléssel, remélve, hogy úgy nem lesz problémája.
