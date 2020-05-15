@@ -15,7 +15,7 @@ public class BankCardInfoTest {
             info.setCardNumber("asd0123456789");
             assertTrue(false);
         }catch (IllegalArgumentException e){
-            assertTrue(true);
+            assertThat(e.getMessage(), is)
         } 
     }
 

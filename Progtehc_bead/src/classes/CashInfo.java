@@ -2,6 +2,7 @@
  
  import com.Interfaces.IPaymentInfo;
  import com.models.db_models.Users;
+ import com.Exceptions.InvalidPaymentException;
 
  /*
  *Ez az osztály akkor lesz használva ha a kölcsönző személy készpénzzel akar fizetni
@@ -20,7 +21,7 @@
 
     public String getName() throws NullPointerException{
         if(user.getFirst_name() == null || user.getLast_name() == null){
-            throw new NullPointerException();
+            throw new InvalidPaymentException("Hibás felhasználó paraméter.");
         }
         return user.getFirst_name() + " " + user.getLast_name();
     }

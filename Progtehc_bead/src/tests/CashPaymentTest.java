@@ -19,9 +19,9 @@ public class CashPaymentTest {
         info.setUser(user);
         try{
             payment.Pay(info);
-            assertTrue(false); 
+            fail("Hibaüzenetet várunk!");
         }catch (InvalidPaymentException e){
-            assertTrue(true);
+            assertThat(e.getMessage(), is("Hibás felhasználó paraméter."));
         }
     }
 
@@ -34,11 +34,5 @@ public class CashPaymentTest {
         user.setLast_name("utonev");
         user.setFirst_name("csaladnev");
         info.setUser(user);
-        try{
-            payment.Pay(info);
-            assertTrue(true);
-        }catch(InvalidPaymentException e){
-            assertTrue(false);
-        }
     }
 }
