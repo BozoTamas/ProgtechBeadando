@@ -14,6 +14,7 @@
 			 Készpénz - Amennyiben az adott autó kölcsönözve van a kölcsönzés sikertelen.
 			 Kártya - Ellenőrizzük/validáljuk a felhasználó bankkárytáját. Amennyiben a validáció sikertelen a kölcsönzés is.
 			 A strategy megvalósításának sikerességéhez létrehoztam egy saját kivételt is.
+			 
 
 2020,05,08 - Valamilyen oknál fogva nem működik a strategy.
 			 Rájöttem, hogy a problémát valószínűleg az okozza, hogy a db_modell mappában található .java fájlokban a 'set' részek private védettségi szintet kaptak, ezért ezeket javítom public-ra.
